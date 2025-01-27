@@ -92,7 +92,7 @@ export default function Home() {
                                 ) : hasSubscribed ? (
                                     <>
                                         <Leaf className="w-5 h-5 mr-2" />
-                                        You're on the list!
+                                        {`You're on the list! 🎉`}
                                     </>
                                 ) : (
                                     'Join waitlist'
